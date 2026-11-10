@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0dc527566cc25041bcd4ba2e35065fd, type: 3}
+  m_Name: TearSettings
+  m_EditorClassIdentifier: Assembly-CSharp::BKK.TearSettings
+  cellSize: 0.006
+  thickness: 0.0015
+  massPerSquareMeter: 0.08
+  linearDamping: 2
+  angularDamping: 2
+  solverIterations: 20
+  sleepThreshold: 0.0001
+  pieceTintVariation: 0.025
+  minSideSize: 0.02
+  maxTearCount: 8
+  tearTensionRatio: 1
+  minTearPullDistance: 0.03
+  minTearHoldTime: 0.15
+  tensionRearmRatio: 1.02
+  maxTearOpenAngle: 10
+  maxTearShearAngle: 35
+  tearOpenFalloff: 0.04
+  maxTearSpeed: 400
+  tearDeformGain: 6
+  crackGap: 0.0008
+  seamIrregularity: 20
+  seamNoiseFrequency: 0.2
+  seamJitter: 0.25
+  seamSmoothIterations: 4
+  snapTearToCrease: 1
+  creaseSnapDistance: 0.012
+  creaseSnapAngle: 25
+  useCornerLengthCheck: 1
+  cornerCheckLength: 0.015
+  snapTowardCorner: 1
+  cornerSnapAngle: 12
+  cornerAngleThreshold: 50
+  cornerDetectSpan: 3
+  grabRadius: 0.05
+  hoverHighlightDistance: 0.08
+  highlightFadeSpeed: 12
+  maxReleaseSpeed: 4
+  splitIgnoreCollisionTime: 0.5
+  enableFolding: 0
+  foldDuration: 0.35
+  foldCompleteAngle: 165
+  foldStartDistance: 0.01
+  unfoldPullDistance: 0.02
+  unfoldPullAngle: 45
+  bendFlexibility: 0.2
+  maxBend: 0.2
+  flapFrequency: 3.5
+  flapDamping: 0.55
+  windAmplitude: 0.002
+  windFrequency: 2.2
+  windWaveLength: 0.18
+  windSpeedGain: 0.8
+  windMinSpeed: 0.05
+  collisionBendRadius: 0.01
+  collisionBendSpread: 4
+  flashCount: 2
+  flashPulseDuration: 0.22
